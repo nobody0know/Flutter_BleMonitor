@@ -35,3 +35,37 @@ lib/generated_plugin_registrant.dart
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# flutter相关
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_export_environment.sh
+lib/generated_plugin_registrant.dart
+
+# 安卓相关
+/android/app/build/
+/android/build/
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/.gradle/
+
+# iOS相关
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/ios/build/
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+
+# 通用忽略文件
+.DS_Store
+*.log
+*.swp
+.env
+.env.*
+!.env.example
+ios/Flutter/Generated.xcconfig
